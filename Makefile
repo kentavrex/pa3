@@ -7,7 +7,7 @@ build:
 	clang -std=c99 -Wall -pedantic *.c -Llib64 -lruntime -o pa_program
 
 run:
-	./pa_program -p 3
+	./pa_program -p 3 10 101 111
 
 clear:
 	rm pa_program && clear && ls -l
